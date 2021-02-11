@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) 
+{
+	int multiplicando,multiplicador=0;
+	printf("Tabuada\n\n");
+	printf("Digite qual tabuada você deseja vizualizar\n");
+	scanf("%d", &multiplicando);
+	printf("\n");
+	for(multiplicador= 0;multiplicador<= 10;multiplicador++)
+		{
+			printf("%dx%d = %d\n", multiplicando, multiplicador, multiplicando*multiplicador);
+		}
+  return 0;
+}
